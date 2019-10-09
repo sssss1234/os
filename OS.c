@@ -30,5 +30,6 @@ int main()
   }
   printf("\n\n average waiting time = %f",sumw*1.0/n);
   printf("\n\n average turnaround time = %f",sumt*1.0/n);
+  printf("\n\n average totaltime = %f",sumt*1.0+sumw*1.0/n);
   return 0;
 }
